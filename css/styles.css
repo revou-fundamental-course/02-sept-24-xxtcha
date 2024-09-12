@@ -1,0 +1,159 @@
+/* css */
+
+.main-header {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.selection-content {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.selection-btn {
+    height: 30px;
+    width: -webkit-fill-available;
+    border: none;
+    border-radius: 4px;
+}
+
+.bisque-color {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.aqua-color {
+    background-color: white;
+    color: cornflowerblue;
+}
+
+p {
+    padding : 10px;
+    margin: 10px;
+    font-family: sans-serif;
+}
+label {
+    font-family: sans-serif;
+}
+
+hr {
+    color: cornflowerblue;
+}
+
+label {
+    padding : 10px;
+    margin: 10px;
+}
+
+.rumus {
+    text-align: center;
+    font-weight: bold;
+}
+
+.luas-segitiga-form-header {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.luas-segitiga-header {
+    color: white;
+    font-family: sans-serif;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 0px;
+    background: cornflowerblue;
+    text-align: center;
+}
+
+.luas-segitiga-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.luas-segitiga-img {
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-image: url(https://asset.kompas.com/crops/ZwOr6ZrEtAtid5uZmYhDFijYPa4=/175x161:1573x1094/750x500/data/photo/2022/03/09/62288763c6d64.png);
+    background-position: center;
+    align-self: center;
+}
+
+.luas-segitiga-form-header {
+    text-align: center;
+}
+
+.input-wrapper {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-wrapper>input {
+    width: 55%;
+}
+
+input[type=number] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.pilih-btn {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.hitung-btn {
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.reset-btn {
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    background-color: yellow;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.main-content {
+    display: flex;
+    
+}
+
+.main-content>aside {
+    flex: 1;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-width: thin;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+    }
+
+    .main-content > aside {
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .main-content{
+        flex-direction: column;
+    }
+}
